@@ -1,0 +1,46 @@
+* {
+	margin:0;
+	border:0;
+	padding:0;
+	vertical-align:baseline;
+	outline:none;
+	list-style:none;
+	font-style:normal;
+  box-sizing: border-box;
+}
+body {
+	line-height: 24px;
+  font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+  color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:400
+}
+a {
+	text-decoration:none
+}
+a:focus {
+	outline:none
+}
+a:hover,a:active {
+	outline:0;
+}
+img {
+	vertical-align:middle
+}
+textarea,input,button {
+	-webkit-appearance:none;
+	appearance:none;
+	border-radius:0
+}
+
+.el-dialog__header {
+  background-color: $mainColor;
+  span, .el-dialog__headerbtn i {
+    color: #fff;
+  }
+  .el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
+    color: #fff;
+  }
+}

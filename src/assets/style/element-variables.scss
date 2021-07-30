@@ -1,0 +1,7 @@
+$--color-primary: $mainColor;
+
+$--font-path: 'node_modules/element-plus/lib/theme-chalk/fonts';
+
+$--color-danger: $mainColor !default;
+
+@import "node_modules/element-plus/packages/theme-chalk/src/index";
